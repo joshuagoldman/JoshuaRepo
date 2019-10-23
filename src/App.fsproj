@@ -1,13 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <EmbeddedResource Include="PicturesEmbeddedResource.xml" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Fable.Elmish.React" Version="3.0.1" />
     <PackageReference Include="Feliz" Version="0.52.0" />
-    <EmbeddedResource Include="PicturesEmbeddedResource.xml" />
   </ItemGroup>
 </Project>

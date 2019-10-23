@@ -4,37 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Watch Client",
-            "command": "npm",
-            "args": [ "start" ],
+            "label": "build",
+            "command": "dotnet build",
             "type": "shell",
-            "options": {
-                "cwd": "${workspaceFolder}",
-                "env": {
-                    "vsCodeSession": "true",
-                    "safeClientOnly": "true"
-                }
-            },
             "group": "build",
-            "isBackground": true,
-            "problemMatcher": {
-                "fileLocation": "absolute",
-                "background": {
-                    "beginsPattern": { "regexp": "run Run" },
-                    "endsPattern": { "regexp": "i ｢wdm｣: Compiled|ℹ ｢wdm｣: Compiled|The terminal process terminated" },
-                    "activeOnStart": true
-                },
-                "pattern": {
-                    "regexp": "^(.*)\\((\\d+),(\\d+)\\): \\((\\d+),(\\d+)\\) (warning|error) FABLE: (.*)$",
-                    "file": 1,
-                    "line": 2,
-                    "column": 3,
-                    "endLine": 4,
-                    "endColumn": 5,
-                    "severity": 6,
-                    "message": 7
-                }
-            }
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$msCompile"
         }
     ]
 }

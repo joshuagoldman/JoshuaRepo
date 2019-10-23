@@ -5,6 +5,8 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "bulma": "^0.8.0",
+    "debug": "^4.1.1",
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },

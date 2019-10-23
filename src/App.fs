@@ -8,7 +8,7 @@ open System.Xml.Linq
 open System.Xml.XPath
 
 let executingAssembly = Assembly.GetExecutingAssembly()
-let embStream = executingAssembly.GetManifestResourceStream("Elmish.Calculator.PicturesEmbeddedResource.xml")
+let embStream = executingAssembly.GetManifestResourceStream("App.PicturesEmbeddedResource.xml")
 let mutable XDoc = XDocument.Load(embStream)
 
 type State =
@@ -67,8 +67,14 @@ let update (msg: Msg) (state: State): State =
 
 let title = 
   Html.p [
-      prop.className "AnimalStuff"
-      prop.text "AnimalStuff"
+      prop.className "title" 
+      prop.text "AnimalStuff" 
+  ]
+
+let picture (name : string) (dispatch : Msg -> unit)= 
+  Html.img [
+      prop.src name
+      prop.
   ]
 
 let textInput (name : string) (dispatch : Msg -> unit) =
@@ -80,9 +86,21 @@ let textInput (name : string) (dispatch : Msg -> unit) =
               prop.classes [ "control" ; "is-expanded" ]
               prop.children[
                   Html.input[
-                      prop.classes[ "input"; "is-medium"]
-                      prop.valueOrDefault name
+                      prop.classes[ "input"; "is-medium"] 
+                      prop.valueOrDefault name 
                       prop.onTextChange(fun text -> dispatch(NewTextSearch(text)))
+                  ]
+              ]
+          ]
+
+          Html.div[
+              prop.classes [ "control" ]
+              prop.children [
+                  Html.button [
+                    prop.classes [ "button" ; "is-primary" ; "is-medium" ]
+                    prop.children [
+                      Html.i [ prop.classes [ "fa" ; "fa-plus"] ]
+                    ]   
                   ]
               ]
           ]
