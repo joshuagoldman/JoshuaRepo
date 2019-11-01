@@ -1,121 +1,136 @@
-module App
+namespace Vradim
 
-open Elmish
-open Elmish.React
-open Feliz
-open System.Reflection
-open System.Xml.Linq
-open System.Xml.XPath
 
-let executingAssembly = Assembly.GetExecutingAssembly()
-let embStream = executingAssembly.GetManifestResourceStream("App.PicturesEmbeddedResource.xml")
-let mutable XDoc = XDocument.Load(embStream)
+module App =
 
-type State =
-    { Name : string
-      Picture : string
-      InfoIsVisible : bool}
+  open Fable.React
+  open Fable.React.Props
+  open System
+  open Elmish
+  open Elmish.React
+  open Fulma
+  open System.IO
+  open System.Reflection
+  open System.Xml.Linq
+  open System.Xml.XPath
+  open System.Text
+  open System.Drawing
+  open Definitions
 
-type Animal =
-    | Cat of State
-    | Dog of State
-    | Fish of State
 
-let animalSeq = 
-  seq[
-    {    Name = "Cat" ; 
-         Picture = XDoc.XPathSelectElement(".//File[@Name = 'Cat']").
-                        XPathSelectElement(".//String").FirstAttribute.Value ;
-         InfoIsVisible = false   }                    
-    {    Name = "Dog" ; 
-         Picture = XDoc.XPathSelectElement(".//File[@Name = 'Dog']").
-                        XPathSelectElement(".//String").FirstAttribute.Value ;
-         InfoIsVisible = false}
+  type Animal =
+      | Cat of State
+      | Dog of State
+      | Fish of State
 
-    {    Name = "Fish" ; 
-         Picture = XDoc.XPathSelectElement(".//File[@Name = 'Fish']").
-                        XPathSelectElement(".//String").FirstAttribute.Value ;
-         InfoIsVisible = false}                                      
-  ]  
+  let getAnimalByStr (str : string) =
+    let chosenState =
+        animalSeq
+        |> Seq.exists (fun animal -> animal.Name = str)
+        |> function 
+            | res when res = true -> 
+                animalSeq |> Seq.find (fun animal -> animal.Name = str)
+            | _ -> animalSeq |> Seq.item 0
+          
+    createNewTempPicture chosenState
+    chosenState
 
-let getAnimalByStr (str : string) =
-    animalSeq
-    |> Seq.exists(fun animal -> animal.Name = str)
-    |> function 
-        | _ when true ->
+  type Msg =
+    | NewTextSearch of string * string  
+    | InputTextHasChanged of string
+    | PictureIsClicked of bool
 
-          animalSeq |> Seq.find(fun animal -> animal.Name = str)
+  let init() : State =
+      let chosenState =
+        animalSeq |> Seq.toArray |> fun x -> x.[0]
 
-        | _ -> animalSeq |> Seq.toArray |> fun x -> x.[0]
+      createNewTempPicture chosenState
+      chosenState    
 
-type Msg =
-  | NewTextSearch of string  
-  | PictureIsClicked of State
+  let update (msg: Msg) (state: State): State =
+      match msg with
+      | NewTextSearch(name, pic) -> 
+        {state with Name = name ; Picture = pic }
 
-let init() =
-    animalSeq |> Seq.toArray |> fun x -> x.[0]
+      | InputTextHasChanged(name) -> 
+        {state with Name = name}
+        
+      | PictureIsClicked(isVisible) ->
+        createNewTempPicture state
+        {state with
+            InfoIsVisible = if isVisible = true then false else true}
 
-let update (msg: Msg) (state: State): State =
-    match msg with
-    | NewTextSearch(str) -> 
-      getAnimalByStr str
-      
-    | PictureIsClicked(state) ->
-      {Name = state.Name ;
-       Picture = state.Picture ;
-       InfoIsVisible = if state.InfoIsVisible = true then false else true}
+  let picture (state : State) (dispatch : Msg -> unit) =
+    img 
+     [ 
+        Src ("C:\Users\DELL\Pictures\\StateImage.jpg")
+        Alt(state.Name)
+        OnClick (fun _ -> dispatch(PictureIsClicked(state.InfoIsVisible)))
+     ]
 
-let title = 
-  Html.p [
-      prop.className "title" 
-      prop.text "AnimalStuff" 
-  ]
+  let title = 
+    label [Class "label"]
+     [
+        str "Info"
+     ]
 
-let picture (name : string) (dispatch : Msg -> unit)= 
-  Html.img [
-      prop.src name
-      prop.
-  ]
+  let textInput (name : string) (dispatch : Msg -> unit) =
+    div [classList ["field",true ; "has-addons", true] ]
+     [
+        div [classList ["control", true ; "is-expanded", true]]
+         [
+            input 
+             [
+                classList ["input", true ; "is-medium", true]
+                OnKeyUp (fun ev -> InputTextHasChanged(ev.Value) |> dispatch )
+             ]
+         ]
 
-let textInput (name : string) (dispatch : Msg -> unit) =
+        div [Class "field is-grouped"]
+         [
+            button
+             [
+                classList ["control",true ; "button is-link", true]
+                OnClick (fun _ -> NewTextSearch(getAnimalByStr name 
+                                                |> fun x -> x.Name, x.Picture) 
+                                                |> dispatch)
+             ]
+             [str "Search"]
+         ]
+     ]
+    
+  let decideIfVisible (state : State) =
+    match state.InfoIsVisible with
+     | true -> "This is info about " + state.Name
+     | _ -> state.Name
 
-  Html.div[
-      prop.classes ["field"; "has-addons"]
-      prop.children [
-          Html.div [
-              prop.classes [ "control" ; "is-expanded" ]
-              prop.children[
-                  Html.input[
-                      prop.classes[ "input"; "is-medium"] 
-                      prop.valueOrDefault name 
-                      prop.onTextChange(fun text -> dispatch(NewTextSearch(text)))
-                  ]
-              ]
-          ]
+  let texArea (state : State) =
+    div [Class "field"]
+     [
+        div [Class "control"]
+         [
+            text [Class "textarea" ; Alt(state.Name)] 
+             [
+                str (decideIfVisible state)
+             ]
+            
+         ]
+     ]
 
-          Html.div[
-              prop.classes [ "control" ]
-              prop.children [
-                  Html.button [
-                    prop.classes [ "button" ; "is-primary" ; "is-medium" ]
-                    prop.children [
-                      Html.i [ prop.classes [ "fa" ; "fa-plus"] ]
-                    ]   
-                  ]
-              ]
-          ]
-      ]
-  ]
 
-let render (state: State) (dispatch: Msg -> unit) =
-  Html.div[
-      prop.style [style.padding 20]
-      prop.children [
-        title
-        textInput state.Name dispatch
-      ]
-  ]
 
-Program.mkSimple init update render
-|> Program.withReactSynchronous "elmish-app"
-|> Program.run
+  let render (state: State) (dispatch: Msg -> unit) =
+    div [] 
+     [
+       title
+       textInput state.Name dispatch
+       picture state dispatch
+       texArea state
+     ]
+
+  open Elmish.Debug
+
+  Program.mkSimple init update render
+  |> Program.withConsoleTrace
+  |> Program.withReactSynchronous "elmish-app"
+  |> Program.run
