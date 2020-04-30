@@ -1,0 +1,5701 @@
+<?xml version="1.0" standalone="yes"?>
+<Steam_Export>
+  <Version_Info>
+    <Version>1.00</Version>
+  </Version_Info>
+  <Template>
+    <Name>1_LPA_107_672_1-R10L01-REF</Name>
+    <Description />
+    <Tag>1/LPA_R10L01</Tag>
+  </Template>
+  <NumberOfTestCases>
+    <Quantity>15</Quantity>
+  </NumberOfTestCases>
+  <TestCase_1>
+    <TestCaseID>2007</TestCaseID>
+    <Name>KRK 101 01/11:R2A:BURNIN/R10L01:</Name>
+    <Description>Street Macro 6791</Description>
+    <ProductNo>KRK 101 01/11</ProductNo>
+    <R-State>R2A</R-State>
+    <TestType>BURNIN/R10L01</TestType>
+    <CategoryNo>66</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>12</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R1A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>22</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>730</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 813/1</ProductNo>
+    <R-State>H01</R-State>
+    <Description>BurnInCmds</Description>
+    <Position>1</Position>
+    <EntryPoint>burn-in-configuration-AIR6449.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>2</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>3</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>4</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>5</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>6</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>1027</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>32/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>C06</R-State>
+    <Description>RBS6000 DU Startup Test</Description>
+    <Position>1</Position>
+    <EntryPoint>32_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10M01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <FileForTestCase_1>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_1>
+  <TestCase_2>
+    <TestCaseID>2008</TestCaseID>
+    <Name>KRK 101 01/2:R1A:BURNIN/R10L01:</Name>
+    <Description>Street Macro 6791</Description>
+    <ProductNo>KRK 101 01/2</ProductNo>
+    <R-State>R1A</R-State>
+    <TestType>BURNIN/R10L01</TestType>
+    <CategoryNo>66</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>12</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R1A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>22</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>730</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 813/1</ProductNo>
+    <R-State>H01</R-State>
+    <Description>BurnInCmds</Description>
+    <Position>1</Position>
+    <EntryPoint>burn-in-configuration-AIR6449.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>2</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>3</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>4</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>5</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>6</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>1027</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>32/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>C06</R-State>
+    <Description>RBS6000 DU Startup Test</Description>
+    <Position>1</Position>
+    <EntryPoint>32_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10M01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <FileForTestCase_2>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_2>
+  <TestCase_3>
+    <TestCaseID>509</TestCaseID>
+    <Name>LPA 107 672/10:R3A:CalRBS6000PRTx64:</Name>
+    <Description>Calibration program</Description>
+    <ProductNo>LPA 107 672/10</ProductNo>
+    <R-State>R3A</R-State>
+    <TestType>CalRBS6000PRTx64</TestType>
+    <CategoryNo>51</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R8A01</Tag>
+  </TestCase_3>
+  <FileForTestCase_3>
+    <TestFileID>3</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 103 0002/1</ProductNo>
+    <R-State>R1U</R-State>
+    <Description>ConfigServer</Description>
+    <Position>1</Position>
+    <EntryPoint>IviConfigServer.dll</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_3>
+  <FileForTestCase_3>
+    <TestFileID>8</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 3573/2</ProductNo>
+    <R-State>R3E</R-State>
+    <Description>Calibration program</Description>
+    <Position>1</Position>
+    <EntryPoint>CalPowerToCalGen.png</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_3>
+  <FileForTestCase_3>
+    <TestFileID>9</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CYA 103 0151/2</ProductNo>
+    <R-State>G</R-State>
+    <Description>Calibration Settings</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibrationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_3>
+  <FileForTestCase_3>
+    <TestFileID>10</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 04-CXP 901 3573/2</ProductNo>
+    <R-State>S</R-State>
+    <Description>Testplan</Description>
+    <Position>1</Position>
+    <EntryPoint>19004-CXP9013573_2.tp</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_3>
+  <FileForTestCase_3>
+    <TestFileID>114</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11E</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R7F</Tag>
+  </FileForTestCase_3>
+  <FileForTestCase_3>
+    <TestFileID>115</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-LPA 107 672/10</ProductNo>
+    <R-State>C</R-State>
+    <Description>Calibration Criteria PRTT</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-LPA107672_10.dat</EntryPoint>
+    <Tag>1/LPA_R7N</Tag>
+  </FileForTestCase_3>
+  <TestCase_4>
+    <TestCaseID>510</TestCaseID>
+    <Name>LPA 107 672/10:R3B01:CalRBS6000PRTx64:</Name>
+    <Description>Calibration program</Description>
+    <ProductNo>LPA 107 672/10</ProductNo>
+    <R-State>R3B01</R-State>
+    <TestType>CalRBS6000PRTx64</TestType>
+    <CategoryNo>51</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPM_R8T</Tag>
+  </TestCase_4>
+  <FileForTestCase_4>
+    <TestFileID>3</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 103 0002/1</ProductNo>
+    <R-State>R1U</R-State>
+    <Description>ConfigServer</Description>
+    <Position>1</Position>
+    <EntryPoint>IviConfigServer.dll</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_4>
+  <FileForTestCase_4>
+    <TestFileID>8</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 3573/2</ProductNo>
+    <R-State>R3E</R-State>
+    <Description>Calibration program</Description>
+    <Position>1</Position>
+    <EntryPoint>CalPowerToCalGen.png</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_4>
+  <FileForTestCase_4>
+    <TestFileID>10</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 04-CXP 901 3573/2</ProductNo>
+    <R-State>S</R-State>
+    <Description>Testplan</Description>
+    <Position>1</Position>
+    <EntryPoint>19004-CXP9013573_2.tp</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_4>
+  <FileForTestCase_4>
+    <TestFileID>114</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11E</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R7F</Tag>
+  </FileForTestCase_4>
+  <FileForTestCase_4>
+    <TestFileID>116</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CYA 103 0151/2</ProductNo>
+    <R-State>G99</R-State>
+    <Description>Calibration Settings 3.5GHz</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibrationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R8K</Tag>
+  </FileForTestCase_4>
+  <FileForTestCase_4>
+    <TestFileID>117</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-LPA 107 672/10</ProductNo>
+    <R-State>D01</R-State>
+    <Description>Calibration Criteria PRTT</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-LPA107672_10.dat</EntryPoint>
+    <Tag>1/LPA_R8T</Tag>
+  </FileForTestCase_4>
+  <TestCase_5>
+    <TestCaseID>2030</TestCaseID>
+    <Name>REF 000 000/1:R10L:HC:</Name>
+    <Description>PRTT HC</Description>
+    <ProductNo>REF 000 000/1</ProductNo>
+    <R-State>R10L</R-State>
+    <TestType>HC</TestType>
+    <CategoryNo>96</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>51</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R2A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>90</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>14/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>A12</R-State>
+    <Description>RBS6000 DU Startup HC Test</Description>
+    <Position>1</Position>
+    <EntryPoint>14_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>105</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>21/13122-CXP 901 5115/1</ProductNo>
+    <R-State>A01</R-State>
+    <Description>LTNG</Description>
+    <Position>1</Position>
+    <EntryPoint>bin\ltng-bbfilter</EntryPoint>
+    <Tag>1\LPA_R10F01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>118</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>42/19062-CXP 901 5115/1</ProductNo>
+    <R-State>D</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10H</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_5>
+  <FileForTestCase_5>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_5>
+  <TestCase_6>
+    <TestCaseID>2028</TestCaseID>
+    <Name>REF 000 000/1:R10L:LAT:</Name>
+    <Description>LAT</Description>
+    <ProductNo>REF 000 000/1</ProductNo>
+    <R-State>R10L</R-State>
+    <TestType>LAT</TestType>
+    <CategoryNo>96</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>12</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R1A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>105</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>21/13122-CXP 901 5115/1</ProductNo>
+    <R-State>A01</R-State>
+    <Description>LTNG</Description>
+    <Position>1</Position>
+    <EntryPoint>bin\ltng-bbfilter</EntryPoint>
+    <Tag>1\LPA_R10F01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>118</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>42/19062-CXP 901 5115/1</ProductNo>
+    <R-State>D</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10H</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>120</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1G</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R10F</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>1203</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>20/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>AG03</R-State>
+    <Description>LAT</Description>
+    <Position>1</Position>
+    <EntryPoint>20_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <FileForTestCase_6>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_6>
+  <TestCase_7>
+    <TestCaseID>2024</TestCaseID>
+    <Name>REF 000 000/1:R10L:PRTT:</Name>
+    <Description>PRTT</Description>
+    <ProductNo>REF 000 000/1</ProductNo>
+    <R-State>R10L</R-State>
+    <TestType>PRTT</TestType>
+    <CategoryNo>96</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>12</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R1A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>105</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>21/13122-CXP 901 5115/1</ProductNo>
+    <R-State>A01</R-State>
+    <Description>LTNG</Description>
+    <Position>1</Position>
+    <EntryPoint>bin\ltng-bbfilter</EntryPoint>
+    <Tag>1\LPA_R10F01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>118</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>42/19062-CXP 901 5115/1</ProductNo>
+    <R-State>D</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10H</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>1150</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>50/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>H10</R-State>
+    <Description>PRTT</Description>
+    <Position>1</Position>
+    <EntryPoint>50_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <FileForTestCase_7>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_7>
+  <TestCase_8>
+    <TestCaseID>2025</TestCaseID>
+    <Name>REF 000 000/1:R10L:SiteSpecifics:</Name>
+    <Description>Site Specifics</Description>
+    <ProductNo>REF 000 000/1</ProductNo>
+    <R-State>R10L</R-State>
+    <TestType>SiteSpecifics</TestType>
+    <CategoryNo>96</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>22</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>56</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>42/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R9C01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>118</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>42/19062-CXP 901 5115/1</ProductNo>
+    <R-State>D</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10H</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>364</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>SiteSpecificProductsPRTT.xml</EntryPoint>
+    <Tag>1/LPA_R8Z01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>662</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>G03</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>663</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>3/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>H11</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>664</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>17/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>665</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>4/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>F09</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>666</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>9/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>B</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>667</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>16/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>F07</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>668</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>8/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>669</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>12/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>E01</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10H</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>670</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>21/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>671</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>20/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>672</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>11/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>D01</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>673</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>13/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>674</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>15/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>B</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>676</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>7/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>677</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>18/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>B</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>1150</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>50/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>H10</R-State>
+    <Description>PRTT</Description>
+    <Position>1</Position>
+    <EntryPoint>50_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <FileForTestCase_8>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_8>
+  <TestCase_9>
+    <TestCaseID>2009</TestCaseID>
+    <Name>REF/BFL 901 009:R1A:REF/MU-R/R10L01:</Name>
+    <Description>REF MU Reduced</Description>
+    <ProductNo>REF/BFL 901 009</ProductNo>
+    <R-State>R1A</R-State>
+    <TestType>REF/MU-R/R10L01</TestType>
+    <CategoryNo>96</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>12</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R1A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>22</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>37</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>24/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>AZ01</R-State>
+    <Description>RBS6601 SW Load and Config</Description>
+    <Position>1</Position>
+    <EntryPoint>24_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10F01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_9>
+  <FileForTestCase_9>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_9>
+  <TestCase_10>
+    <TestCaseID>2010</TestCaseID>
+    <Name>REF/BFM 901 290:R1A:REF/NODE/R10L01:</Name>
+    <Description>REF RBS/TMR/BBS/BBU</Description>
+    <ProductNo>REF/BFM 901 290</ProductNo>
+    <R-State>R1A</R-State>
+    <TestType>REF/NODE/R10L01</TestType>
+    <CategoryNo>96</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>12</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R1A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>22</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>1184</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>16/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>ES08</R-State>
+    <Description>RBS6000 Node System Test</Description>
+    <Position>1</Position>
+    <EntryPoint>16_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <FileForTestCase_10>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_10>
+  <TestCase_11>
+    <TestCaseID>2011</TestCaseID>
+    <Name>REF/KDU 123 456/1:R1A:REF/M-DUH/R10L01:</Name>
+    <Description>REF DU startup HC</Description>
+    <ProductNo>REF/KDU 123 456/1</ProductNo>
+    <R-State>R1A</R-State>
+    <TestType>REF/M-DUH/R10L01</TestType>
+    <CategoryNo>96</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>22</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>51</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R2A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>90</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>14/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>A12</R-State>
+    <Description>RBS6000 DU Startup HC Test</Description>
+    <Position>1</Position>
+    <EntryPoint>14_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_11>
+  <FileForTestCase_11>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_11>
+  <TestCase_12>
+    <TestCaseID>2012</TestCaseID>
+    <Name>REF/KRC 161 777/2:R1A:BURNIN/R10L01:</Name>
+    <Description>Radio 4480 44B1 44B3</Description>
+    <ProductNo>REF/KRC 161 777/2</ProductNo>
+    <R-State>R1A</R-State>
+    <TestType>BURNIN/R10L01</TestType>
+    <CategoryNo>66</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>12</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R1A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>22</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>61</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>30/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>H03</R-State>
+    <Description>Burn In Radio</Description>
+    <Position>1</Position>
+    <EntryPoint>30_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10H</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>730</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 813/1</ProductNo>
+    <R-State>H01</R-State>
+    <Description>BurnInCmds</Description>
+    <Position>1</Position>
+    <EntryPoint>burn-in-configuration-AIR6449.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>2</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>3</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>4</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>5</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>6</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <FileForTestCase_12>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_12>
+  <TestCase_13>
+    <TestCaseID>2976</TestCaseID>
+    <Name>REF/KRD 901 087/2:R1E:BURNIN/R10L01:</Name>
+    <Description>AIR6488</Description>
+    <ProductNo>REF/KRD 901 087/2</ProductNo>
+    <R-State>R1E</R-State>
+    <TestType>BURNIN/R10L01</TestType>
+    <CategoryNo>66</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>12</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R1A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>22</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>730</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 813/1</ProductNo>
+    <R-State>H01</R-State>
+    <Description>BurnInCmds</Description>
+    <Position>1</Position>
+    <EntryPoint>burn-in-configuration-AIR6449.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>2</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>3</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>4</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>5</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>6</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>1029</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>34/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>A03</R-State>
+    <Description>AIR MultiDUTRU BurnIn Test</Description>
+    <Position>1</Position>
+    <EntryPoint>34_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <FileForTestCase_13>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_13>
+  <TestCase_14>
+    <TestCaseID>2013</TestCaseID>
+    <Name>REF/KRK 101 01/11:R1A:AVT/R10L01:</Name>
+    <Description>Street Macro 6791</Description>
+    <ProductNo>REF/KRK 101 01/11</ProductNo>
+    <R-State>R1A</R-State>
+    <TestType>AVT/R10L01</TestType>
+    <CategoryNo>22</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>12</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R1A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>22</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>730</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 813/1</ProductNo>
+    <R-State>H01</R-State>
+    <Description>BurnInCmds</Description>
+    <Position>1</Position>
+    <EntryPoint>burn-in-configuration-AIR6449.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>978</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>33/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>A01</R-State>
+    <Description>AVT SM6701</Description>
+    <Position>1</Position>
+    <EntryPoint>33_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <FileForTestCase_14>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_14>
+  <TestCase_15>
+    <TestCaseID>2014</TestCaseID>
+    <Name>REF/KRK 101 01/11:R1A:BURNIN/R10L01:</Name>
+    <Description>Street Macro 6791</Description>
+    <ProductNo>REF/KRK 101 01/11</ProductNo>
+    <R-State>R1A</R-State>
+    <TestType>BURNIN/R10L01</TestType>
+    <CategoryNo>66</CategoryNo>
+    <ConfigFilter />
+    <Tag>1/LPA_R10L01</Tag>
+  </TestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>6</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 912/3</ProductNo>
+    <R-State>R11G</R-State>
+    <Description>instrument drivers</Description>
+    <Position>1</Position>
+    <EntryPoint>CalibMan.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>11</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>LZY 213 1458/1</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>AlertList</Description>
+    <Position>1</Position>
+    <EntryPoint>AlertList.txt</EntryPoint>
+    <Tag>1/LPA_R7C</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>12</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4415/1</ProductNo>
+    <R-State>R1A</R-State>
+    <Description>VC_IMAGE</Description>
+    <Position>1</Position>
+    <EntryPoint>dusstub.dtb</EntryPoint>
+    <Tag>VC</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>13</TestFileID>
+    <FileTypeID>3</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 02-CXP 901 5115/1</ProductNo>
+    <R-State>C</R-State>
+    <Description>Layout</Description>
+    <Position>1</Position>
+    <EntryPoint>19002-CXP9015115_1.lay</EntryPoint>
+    <Tag>1/LPA_R7B</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>14</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0503/1</ProductNo>
+    <R-State>R1B</R-State>
+    <Description>CLIENT TOOLBOX</Description>
+    <Position>1</Position>
+    <EntryPoint>clientToolBox\clientToolBox.jar</EntryPoint>
+    <Tag>1/LPA_R7E</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>15</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0344/1</ProductNo>
+    <R-State>R1C</R-State>
+    <Description>TFTPServer</Description>
+    <Position>1</Position>
+    <EntryPoint>Boot_Start.bat</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>19</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXS 101 497</ProductNo>
+    <R-State>R7C</R-State>
+    <Description>Master Config</Description>
+    <Position>1</Position>
+    <EntryPoint>RbsMaster1CF12_prtt_connect.cfg</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>20</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/2</ProductNo>
+    <R-State>R1D</R-State>
+    <Description>RBS6000 PRTT Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>Ericsson.SC.FtdiDriver.dll</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>21</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>102/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>E</R-State>
+    <Description>ConfigSettingsWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>1atm.txt</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>22</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/190 62-CXP 901 5115/1</ProductNo>
+    <R-State>A</R-State>
+    <Description>SiteSpecificProducts</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R8Z</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>24</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3741/1</ProductNo>
+    <R-State>C01</R-State>
+    <Description>TeststationSettings</Description>
+    <Position>1</Position>
+    <EntryPoint>TeststationSettings.xml</EntryPoint>
+    <Tag>1/LPA_R9D01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>25</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1545-CXC 112 3747</ProductNo>
+    <R-State>AK03</R-State>
+    <Description>AlarmListGsm</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>26</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/1545-CXC 112 3749</ProductNo>
+    <R-State>AL01</R-State>
+    <Description>AlarmListLte</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>27</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/1545-CXC 112 3748</ProductNo>
+    <R-State>BH01</R-State>
+    <Description>AlarmListWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R9L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>28</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 338</ProductNo>
+    <R-State>BA</R-State>
+    <Description>HWLogCriteria</Description>
+    <Position>1</Position>
+    <EntryPoint>1_15451_LPA108338_23.txt</EntryPoint>
+    <Tag>1/LPA_R9V01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>29</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 902 2551/1</ProductNo>
+    <R-State>R22A05</R-State>
+    <Description>RBS6000 Radio Platform Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>109 21-CXP 902 2551_1.txt</EntryPoint>
+    <Tag>1\LPA_R9Z01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>30</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CYA 901 0322/1</ProductNo>
+    <R-State>R1H02</R-State>
+    <Description>VendorCredentials Resource</Description>
+    <Position>1</Position>
+    <EntryPoint>CYA 901 0322_1_TestFileVersion.txt</EntryPoint>
+    <Tag>1/LPA_R10A01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>36</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/1111-1/LPA 107 672/1</ProductNo>
+    <R-State>AJ01</R-State>
+    <Description>BarXML</Description>
+    <Position>1</Position>
+    <EntryPoint>IndexFile.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>40</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/155 02-CXP 901 5115/1</ProductNo>
+    <R-State>AT01</R-State>
+    <Description>BandParameters</Description>
+    <Position>1</Position>
+    <EntryPoint>BandParameters.xml</EntryPoint>
+    <Tag>1/LPA_R10H01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>45</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CAH 161 1636/1</ProductNo>
+    <R-State>R79BJ01</R-State>
+    <Description>OMT Client resource</Description>
+    <Position>1</Position>
+    <EntryPoint>zlibwapi.dll</EntryPoint>
+    <Tag>1\LPA_R10H01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>82</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 904 0308/3</ProductNo>
+    <R-State>R2A02</R-State>
+    <Description>VC_SETTINGS</Description>
+    <Position>1</Position>
+    <EntryPoint>VCSettings.xml</EntryPoint>
+    <Tag>VC_GAVLE</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>406</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>201/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CE01</R-State>
+    <Description>MoTemplateLte</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>407</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>101/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>CT01</R-State>
+    <Description>MoTemplateWcdma</Description>
+    <Position>1</Position>
+    <EntryPoint>MoTemplate.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>416</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>301/1545-CXC 112 3746</ProductNo>
+    <R-State>AC02</R-State>
+    <Description>AlarmListCommon</Description>
+    <Position>1</Position>
+    <EntryPoint>AlarmList.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>495</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>BY01</R-State>
+    <Description>Language</Description>
+    <Position>1</Position>
+    <EntryPoint>chinese.xml</EntryPoint>
+    <Tag>1/LPA_R10J</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>730</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-LPA 108 813/1</ProductNo>
+    <R-State>H01</R-State>
+    <Description>BurnInCmds</Description>
+    <Position>1</Position>
+    <EntryPoint>burn-in-configuration-AIR6449.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>735</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>202/190 62-CXC 112 3745/1</ProductNo>
+    <R-State>AS01</R-State>
+    <Description>TestModelsLte</Description>
+    <Position>1</Position>
+    <EntryPoint>Downlink_ETM11_Bw10MHz.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>1</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>2</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>3</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>4</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>5</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>982</TestFileID>
+    <FileTypeID>1</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 59-CXP 901 5115/1</ProductNo>
+    <R-State>EL02</R-State>
+    <Description>RBS6000 Criteria</Description>
+    <Position>6</Position>
+    <EntryPoint>19059-CXP9015115_1.dat</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>1027</TestFileID>
+    <FileTypeID>6</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>32/190 04-CXP 901 5115/1</ProductNo>
+    <R-State>C06</R-State>
+    <Description>RBS6000 DU Startup Test</Description>
+    <Position>1</Position>
+    <EntryPoint>32_19004-CXP9015115_1.tp</EntryPoint>
+    <Tag>1/LPA_R10M01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>1044</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>10/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>BB06</R-State>
+    <Description>Integration</Description>
+    <Position>1</Position>
+    <EntryPoint>alarmlist.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>1128</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXC 112 4526</ProductNo>
+    <R-State>R1Z01</R-State>
+    <Description>ESC Configuration Scripts</Description>
+    <Position>1</Position>
+    <EntryPoint>ExternalAlarms.moconf</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>1147</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>190 62-CXC 112 3742/1</ProductNo>
+    <R-State>DV11</R-State>
+    <Description>ProductionTemplates</Description>
+    <Position>1</Position>
+    <EntryPoint>authorized_keys</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>1197</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>5/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CG19</R-State>
+    <Description>RBS6000 Definitions</Description>
+    <Position>1</Position>
+    <EntryPoint>ConfigkeyDefinitions.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>1233</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>2/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>CZ08</R-State>
+    <Description>ConfigKeyList</Description>
+    <Position>1</Position>
+    <EntryPoint>BandToDuMapping.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>1238</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>152 11-1/LPA 107 672/1</ProductNo>
+    <R-State>CX07</R-State>
+    <Description>instructions</Description>
+    <Position>1</Position>
+    <EntryPoint>6101.Ext.PDU1.JPG</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>1338</TestFileID>
+    <FileTypeID>5</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>CXP 901 5115/1</ProductNo>
+    <R-State>R10L211</R-State>
+    <Description>RBS6000 NodeResource</Description>
+    <Position>1</Position>
+    <EntryPoint>10921-CXP9015115_1.txt</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+  <FileForTestCase_15>
+    <TestFileID>1339</TestFileID>
+    <FileTypeID>2</FileTypeID>
+    <LayoutFileID>0</LayoutFileID>
+    <ProductNo>1/131 22-CXP 901 5115/1</ProductNo>
+    <R-State>DC16</R-State>
+    <Description>HWPidList</Description>
+    <Position>1</Position>
+    <EntryPoint>Checksum.xml</EntryPoint>
+    <Tag>1/LPA_R10L01</Tag>
+  </FileForTestCase_15>
+</Steam_Export>
