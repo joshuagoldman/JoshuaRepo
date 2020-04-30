@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <GenerateProgramFile>false</GenerateProgramFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="SteamActions.fs" />
+    <Content Include="TestLogFiles\elogread.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Tests.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ericsson.AM.Common" Version="1.2.0" />
+    <PackageReference Include="Ericsson.AM.LogAnalyzer" Version="7.1.32" />
+    <PackageReference Include="Ericsson.AM.Pqat" Version="0.3.10" />
+    <PackageReference Include="Ericsson.AM.RcoHandler" Version="1.3.15" />
+    <PackageReference Include="Ericsson.AM.ReportHandler" Version="1.0.8" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="ncalc" Version="1.3.8" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="1.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SearchKeyScripts\SearchKeyScripts.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Ericsson.AM.Common">
+      <HintPath>..\..\..\Gitrepos\LogAnalyzer\Ericsson.AM.LogAnalyzer\bin\Debug\netstandard2.0\Ericsson.AM.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Ericsson.AM.LogAnalyzer">
+      <HintPath>..\..\..\Gitrepos\LogAnalyzer\Ericsson.AM.LogAnalyzer\bin\Debug\netstandard2.0\Ericsson.AM.LogAnalyzer.dll</HintPath>
+    </Reference>
+    <Reference Include="Ericsson.AM.LogAnalyzer.NUnit.Test">
+      <HintPath>..\..\..\Gitrepos\LogAnalyzer\Ericsson.AM.LogAnalyzer.NUnit.Test\bin\Debug\netcoreapp2.0\Ericsson.AM.LogAnalyzer.NUnit.Test.dll</HintPath>
+    </Reference>
+    <Reference Include="Ericsson.AM.Pqat">
+      <HintPath>..\..\..\Gitrepos\LogAnalyzer\Ericsson.AM.LogAnalyzer\bin\Debug\netstandard2.0\Ericsson.AM.Pqat.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.7.1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="UpdateDRIDOcument.fs" />
+    <Compile Include="FindHwPidListItems.fs" />
+    <Compile Include="WriteNewProducts2Add.fs" />
+    <Compile Include="ExcelFunctions.fs" />
+    <Compile Include="SearchKey_2_42.fs" />
+    <Compile Include="CheckExRstatePQATCriterias.fs" />
+    <Compile Include="CriteriaVerificationDefinitions.fs" />
+    <Compile Include="AddStreetMacroToSearches.fs" />
+    <Compile Include="Add2HwPidLIst.fs" />
+    <Compile Include="UpdateRCOScript.fs" />
+    <Compile Include="CreateProductsInfoFile.fs" />
+    <Compile Include="RcoListFault.fs" />
+    <Compile Include="AddHwPidListPRTT.fs" />
+    <Compile Include="AddConfigKeyDefinitions.fs" />
+    <Compile Include="AddToConfigKeyList.fs" />
+    <Compile Include="CriteriaVerification.fs" />
+    <Compile Include="SK_1_72_SupportIssue.fs" />
+    <Compile Include="CriteriaSrpintChanges.fs" />
+    <Compile Include="NewLATPRods2SiteInfoForScript.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+    <PackageReference Include="GitSharp" Version="0.3.0" />
+    <PackageReference Include="MicrosoftOfficeCore" Version="15.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.7.1" />
+  </ItemGroup>
+
+</Project>
