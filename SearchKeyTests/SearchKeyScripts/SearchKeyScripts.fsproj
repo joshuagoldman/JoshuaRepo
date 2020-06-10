@@ -15,16 +15,16 @@
     <Compile Include="CriteriaVerificationDefinitions.fs" />
     <Compile Include="AddStreetMacroToSearches.fs" />
     <Compile Include="Add2HwPidLIst.fs" />
-    <Compile Include="UpdateRCOScript.fs" />
     <Compile Include="CreateProductsInfoFile.fs" />
-    <Compile Include="RcoListFault.fs" />
     <Compile Include="AddHwPidListPRTT.fs" />
     <Compile Include="AddConfigKeyDefinitions.fs" />
     <Compile Include="AddToConfigKeyList.fs" />
     <Compile Include="CriteriaVerification.fs" />
     <Compile Include="SK_1_72_SupportIssue.fs" />
-    <Compile Include="CriteriaSrpintChanges.fs" />
+    <Compile Include="RcoListFault.fs" />
+    <Compile Include="UpdateRCOScript.fs" />
     <Compile Include="NewLATPRods2SiteInfoForScript.fs" />
+    <Compile Include="CriteriaSrpintChanges.fs" />
   </ItemGroup>
 
   <ItemGroup>

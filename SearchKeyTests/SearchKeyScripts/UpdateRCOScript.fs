@@ -12,7 +12,7 @@ open System.Text
 
 
 let getxlColumns (filePath : string) =
-    //System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance)
+    System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance)
     let  stream = File.Open(filePath,  FileMode.Open, FileAccess.ReadWrite)
     let  dataReader = ExcelReaderFactory.CreateOpenXmlReader(stream)
     let dataSet = dataReader.AsDataSet()
@@ -85,7 +85,7 @@ let getxlColumns (filePath : string) =
     File.WriteAllText("C:\Users\egoljos\Documents\Gitrepos\LogAnalyzer\Ericsson.AM.RcoHandler\EmbeddedResources\RBS6000\Aftermarket\RBS RCO List.csv", finalString)
     
 
-getxlColumns "C:\Users\egoljos\Documents\ScriptDocuments\RCO_List_March_Script.xlsx"
+getxlColumns "C:\Users\egoljos\Documents\ScriptDocuments\RCO_List_May_4Script.xlsx"
 |> ignore
 
 

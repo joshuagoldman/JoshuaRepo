@@ -75,6 +75,7 @@ let getProperty ( propName : string ) input =
     result
 
 [<Fact>]
+[<Trait("Category","Steam Actions")>]
 let ``CreateTemplate`` () =
 
     let productsInfoLAT =

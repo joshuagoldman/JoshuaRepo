@@ -74,10 +74,10 @@ let getTwoDifferentFileVersionsByCommit (command1, command2) =
 
 
 let cmd1 =
-    "show HEAD@{2020-03-19}:Ericsson.AM.LogAnalyzer/EmbeddedCriteria/RBS6000/Aftermarket/HWLogCriteria.xml"
+    "show HEAD@{2020-05-21}:Ericsson.AM.LogAnalyzer/EmbeddedCriteria/RBS6000/Aftermarket/HWLogCriteria.xml"
     
 let cmd2 =
-    "show HEAD@{2020-04-21}:Ericsson.AM.LogAnalyzer/EmbeddedCriteria/RBS6000/Aftermarket/HWLogCriteria.xml"
+    "show HEAD@{2020-06-04}:Ericsson.AM.LogAnalyzer/EmbeddedCriteria/RBS6000/Aftermarket/HWLogCriteria.xml"
 
 let twoFiles =
     let result =

@@ -1,5 +1,5 @@
-﻿module RcoListFault
-
+﻿
+module RcoListFault
 open System
 open System
 open System.Collections.Generic

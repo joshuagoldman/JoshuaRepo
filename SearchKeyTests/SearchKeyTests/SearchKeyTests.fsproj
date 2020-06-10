@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="SharePoint.fs" />
+    <Compile Include="SearchKeyScripting.fs" />
     <Compile Include="SteamActions.fs" />
     <Content Include="TestLogFiles\elogread.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
