@@ -21,7 +21,7 @@
         "corejs": "^1.0.0",
         "cors": "^2.8.5",
         "exceljs": "^4.1.1",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "express-fileupload": "^1.1.7-alpha.4",
         "fable": "^2.0.0",
         "fable-splitter": "^2.2.1",
